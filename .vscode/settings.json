@@ -1,0 +1,8 @@
+{
+  "files.associations": {
+    "iostream": "cpp",
+    "string_view": "cpp",
+    "regex": "cpp"
+  },
+  "C_Cpp.errorSquiggles": "Disabled"
+}
