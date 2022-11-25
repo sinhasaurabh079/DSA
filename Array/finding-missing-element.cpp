@@ -43,3 +43,26 @@ int main()
 }
 
 
+
+//{ Driver Code Starts
+// Initial template for C++
+
+#include <bits/stdc++.h>
+using namespace std;
+
+// } Driver Code Ends
+// User function template for C++
+
+class Solution{
+  public:
+    int MissingNumber(vector<int>& array, int n) {
+        // Your code goes here
+        int sum=(n*(n+1)/2);
+        int arrsum=0;
+        for(int i=0;i<n-1;i++)
+          arrsum+=array[i];
+          
+        return sum-arrsum;
+         
+    }
+};
