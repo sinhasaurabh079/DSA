@@ -65,7 +65,7 @@ int Delete(Node *p, int index)
     Node *q;
     int x;
 
-    if (index < 0 && index > Length(p))
+    if (index < 0 || index > Length(p))
         return -1;
 
     if (index == 1)
