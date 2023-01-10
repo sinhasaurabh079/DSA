@@ -64,7 +64,7 @@ void Insert(Node *p, int index, int x)
 {
     Node *t;
 
-    if (index < 0 && index > Length(p))
+    if (index < 0 || index > Length(p))
         return;
     if (index == 0)
     {
