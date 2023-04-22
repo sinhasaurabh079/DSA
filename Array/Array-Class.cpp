@@ -3,7 +3,7 @@ using namespace std;
 
 template <class T>
 class Array
-{
+{ 
 private:
     T *A;
     int size;
